@@ -1,0 +1,85 @@
+body { 
+    background-color: black;
+
+}
+.cell {
+    background-color: rgb(212, 142, 11);
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border: 5px solid rgb(89, 14, 158);
+    font-size: 80px;
+    padding-top: 15%;
+    text-align: center;
+}
+h1 {
+    
+    font-size: 90px;
+    text-decoration: line-through; 
+    color: orange;
+    text-align: center;
+    border: 10px solid black;
+    background-color: rgb(89, 14, 158);
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+
+#player-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px dashed orange;
+    background-color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    /* padding: 10px;
+    margin-top: 10px; */
+    /* text-decoration: underline; */
+    height: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#ttt-board {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    width: 500px;
+    height: 500px;
+    padding-right: 36.5%;
+    padding-left: 37%;
+    padding-top: 50px;
+    background-color: orangered;
+    /* align-items: center; */
+    border: 2px solid orangered;
+    /* background-image: url(pumpkin.png); */
+}
+
+.player {
+    font-size: 24px;
+
+}
+#displayed-name{
+    display: flex;
+    align-items: center;
+    /* border: 5px dashed orange; */
+    background-color: rgb(89, 14, 158);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#p1name {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+    
+    
+}
+#p2name {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+}
